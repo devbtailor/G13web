@@ -103,7 +103,7 @@
 					<a class="sidebar__link" href="index.html">Home</a>
 				</li>
 				<li>
-					<a class="sidebar__link" href="artists.html">Artists</a>
+					<a class="sidebar__link active" href="artists.html">Artist</a>
 				</li>
 				<li class="sidebar__dropdown">
 					<a class="sidebar__link" href="#">News</a>
@@ -124,7 +124,7 @@
 					<a class="sidebar__link" href="releases.html">Releases</a>
 				</li>
 				<li>
-					<a class="sidebar__link active" href="store.html">Store</a>
+					<a class="sidebar__link" href="store.html">Store</a>
 				</li>
 				<li>
 					<a class="sidebar__link" href="contacts.html">Contacts</a>
@@ -189,7 +189,7 @@
 	<main class="content-wrap clearfix">
 		<div class="content">
 
-			<!-- store -->
+			<!-- releases -->
 			<section class="section section--first">
 				<div class="row">
 					<!-- section title -->
@@ -197,113 +197,184 @@
 						<div class="section__title section__title--single clearfix">
 							<div class="row">
 								<div class="col-xs-12 col-sm-5">
-									<h2>Store</h2>
+									<h2>Skate</h2>
 								</div>
-							</div>
+
+								<div class="col-xs-12 col-sm-7">
+									<!-- section filter -->
+									<div id="section__filter-2" class="section__filter">
+										<div class="section__filter-btn" data-toggle="dropdown" aria-expanded="false" role="button">
+											<input type="button" value="All Artists">
+											<span class="lnr lnr-chevron-down"></span>
+										</div>
+
+										<ul class="section__filter-menu scrollbar-dropdown">
+											<li><a href="#">All Artists</a></li>
+											<li><a href="#">Legacy Artists</a></li>
+											<li><a href="#">Active Artists</a></li>
+										</ul>
+									</div>
+									<!-- end section filter -->
+								</div>
+							</div>		
 						</div>
 					</div>
 					<!-- end section title -->
+				</div>
 
-					<div class="col-xs-12">
-						<div class="row row--grid-big">
-							<!-- store post -->
-							<div class="col-xs-12 col-sm-6 col-md-4">
-								<div class="store-post">
-									<a class="store-post__link" href="item.html"></a>
-									<figure class="store-post__img">
-										<img src="img/store/item.jpg" alt="">
-									</figure>
-									<div class="store-post__title">Headphones</div>
-									<div class="store-post__model">ZR-991</div>
-									<div class="store-post__price">$199</div>
-									<button class="store-post__btn"><span class="lnr lnr-cart"></span></button>
+				<div class="row row--grid-big">
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/reke.png" alt="">
+								<div>
+									<span>Reke</span>
+									<ul>
+										<li>Rap</li>
+										<li>Trap</li>
+										
+									</ul>
 								</div>
-							</div>
-							<!-- end store post -->
-
-							<!-- store post -->
-							<div class="col-xs-12 col-sm-6 col-md-4">
-								<div class="store-post">
-									<a class="store-post__link" href="item.html"></a>
-									<figure class="store-post__img">
-										<img src="img/store/item.jpg" alt="">
-									</figure>
-									<div class="store-post__title">Headphones</div>
-									<div class="store-post__model">LF-34</div>
-									<div class="store-post__price">$259</div>
-									<button class="store-post__btn"><span class="lnr lnr-cart"></span></button>
-								</div>
-							</div>
-							<!-- end store post -->
-
-							<!-- store post -->
-							<div class="col-xs-12 col-sm-6 col-md-4">
-								<div class="store-post">
-									<a class="store-post__link" href="item.html"></a>
-									<figure class="store-post__img">
-										<img src="img/store/item.jpg" alt="">
-									</figure>
-									<div class="store-post__title">Headphones</div>
-									<div class="store-post__model">X-Monster 5</div>
-									<div class="store-post__price">$221</div>
-									<button class="store-post__btn"><span class="lnr lnr-cart"></span></button>
-								</div>
-							</div>
-							<!-- end store post -->
-
-							<!-- store post -->
-							<div class="col-xs-12 col-sm-6 col-md-4">
-								<div class="store-post">
-									<a class="store-post__link" href="item.html"></a>
-									<figure class="store-post__img">
-										<img src="img/store/item.jpg" alt="">
-									</figure>
-									<div class="store-post__title">Headphones</div>
-									<div class="store-post__model">DX-9</div>
-									<div class="store-post__price">$249</div>
-									<button class="store-post__btn"><span class="lnr lnr-cart"></span></button>
-								</div>
-							</div>
-							<!-- end store post -->
-
-							<!-- store post -->
-							<div class="col-xs-12 col-sm-6 col-md-4">
-								<div class="store-post">
-									<a class="store-post__link" href="item.html"></a>
-									<figure class="store-post__img">
-										<img src="img/store/item.jpg" alt="">
-									</figure>
-									<div class="store-post__title">Headphones</div>
-									<div class="store-post__model">X-Monster 4</div>
-									<div class="store-post__price">$169</div>
-									<button class="store-post__btn"><span class="lnr lnr-cart"></span></button>
-								</div>
-							</div>
-							<!-- end store post -->
-
-							<!-- store post -->
-							<div class="col-xs-12 col-sm-6 col-md-4">
-								<div class="store-post">
-									<a class="store-post__link" href="item.html"></a>
-									<figure class="store-post__img">
-										<img src="img/store/item.jpg" alt="">
-									</figure>
-									<div class="store-post__title">Headphones</div>
-									<div class="store-post__model">LF-35</div>
-									<div class="store-post__price">$229</div>
-									<button class="store-post__btn"><span class="lnr lnr-cart"></span></button>
-								</div>
-							</div>
-							<!-- end store post -->
+							</a>
 						</div>
 					</div>
+					<!-- end artist -->
 
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/dj.png" alt="">
+								<div>
+									<span>Chris S.</span>
+									<ul>
+										<li>Techno</li>
+										<li>TRAp</li>
+										<li></li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- end artist -->
+
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/reke.png" alt="">
+								<div>
+									<span>Lucy</span>
+									<ul>
+										<li>Rap</li>
+										<li>trap</li>
+										
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- end artist -->
+
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/dj.png" alt="">
+								<div>
+									<span>Buseta</span>
+									<ul>
+										<li>Trap</li>
+										<li>House</li>
+										
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- end artist -->
+
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/dj.png" alt="">
+								<div>
+									<span>Taylor</span>
+									<ul>
+										<li>Techno</li>
+										<li>House</li>
+										<li>Dance</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- end artist -->
+
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/reke.png" alt="">
+								<div>
+									<span>Nick</span>
+									<ul>
+										<li>Trap</li>
+										<li>Hip-hop</li>
+										<li>Dance</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- end artist -->
+
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/dj.png" alt="">
+								<div>
+									<span>Foreman</span>
+									<ul>
+										<li>Techno</li>
+										<li>House</li>
+										<li>Dance</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- end artist -->
+
+					<!-- artist -->
+					<div class="col-xs-12 col-sm-4 col-lg-3">
+						<div class="artist-post">
+							<a href="artist.html" class="artist-post__cover">
+								<img src="img/artists/reke.png" alt="">
+								<div>
+									<span>B-B-Q</span>
+									<ul>
+										<li>Techno</li>
+										<li>House</li>
+										<li>Dance</li>
+									</ul>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- end artist -->
+				</div>
+
+				<div class="row">
 					<div class="col-xs-12">
 						<button type="button" class="default-btn default-btn--red default-btn--center">Load more</button>
 					</div>
 				</div>
 			</section>
-			<!-- end store -->
+			<!-- end releases -->
 
 			<!-- footer -->
 			<div class="footer">
@@ -363,6 +434,7 @@
 		</div>
 		
 		<div class="row">
+<!--
 			<div class="col-xs-6 col-sm-4 col-md-5">
 				<div class="player__cover">
 					<div id="jquery_jplayer_1"></div>
@@ -370,7 +442,9 @@
 
 				<div id="current-track" class="player__track-title">Cro Magnon Man</div>
 			</div>
-
+-->
+ <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="40" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<!--
 			<div class="col-xs-4 col-sm-4 col-md-2">
 				<ul class="player__buttons jp-controls">
 					<li>
@@ -391,7 +465,9 @@
 					</li>
 				</ul>
 			</div>
+-->
 
+<!--
 			<div class="col-xs-2 col-sm-4 col-md-5">
 				<div class="player__playlist-wrap jp-playlist">
 					<button class="player__playlist-btn" data-toggle="dropdown" aria-expanded="false">
@@ -405,6 +481,7 @@
 					<div class="player__volume-value jp-volume-bar-value"></div>
 				</div>
 			</div>
+-->
 		</div>
 	</div>
 	<!-- end player -->
