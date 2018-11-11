@@ -268,6 +268,9 @@ ul {
 .owl-carousel .owl-item img {
 	width: auto;
 }
+ 
+
+
 .dropdown-backdrop {
 	z-index: -2;
 }
@@ -912,7 +915,7 @@ h6 {
 .content {
 	margin: 0;
 	padding-top: 50px;
-	padding-bottom: 53px;
+	padding-bottom: 0px;
 }
 @media (min-width: 1200px) {
 	.content {
@@ -1443,11 +1446,20 @@ h6 {
 ==============================*/
 .event-post {
 	position: relative;
-	height: 350px;
+	height: 487px;
 	width: auto;
 	z-index: 1;
 	margin-bottom: 10px;
 }
+/*test borrar luego*/
+.event-post2 {
+	position: static;
+	height: 487px;
+	width: fit-content;
+	z-index: 1;
+	margin-bottom: 10px;
+}
+/*fin test*/
 .event-post:before {
 	position: absolute;
 	content: '';
@@ -1555,7 +1567,7 @@ h6 {
 @media (min-width: 1200px) {
 	.event-post {
 		margin-bottom: 20px;
-		height: 400px;
+		height: 480px;
 	}
 	.event-post__header {
 		padding: 200px 30px 0;
@@ -3062,7 +3074,7 @@ h6 {
 		margin-bottom: 20px;
 	}
 	.store-box__item {
-		width: 25%;
+		width: 100%;
 		border-bottom: none;
 		border-right: 1px solid rgba(146,153,158,0.16);
 	}
