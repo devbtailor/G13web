@@ -141,6 +141,9 @@
 				<li>
 					<a class="sidebar__link" href="contacts.html">Contacts</a>
 				</li>
+                  <li>
+					<a class="sidebar__link" href="legal.html">Legal & Policy</a>
+				</li>
 <!--
 				<li class="sidebar__dropdown">
 					<a class="sidebar__link" href="#">Pages</a>
@@ -357,41 +360,26 @@
 								<!-- end slide -->
 
 								<!-- slide -->
-								<article class="item event-post" data-bg="img/events/reke.png">
-									<header class="event-post__header">
-										<div class="event-post__date">March 16, 2019</div>
-										<div class="event-post__time">6:00 pm</div>
-										<h2 class="event-post__title"><a href="event.html">Big Daddy</a></h2>
-										<div class="event-post__address">71 Pilgrim Avenue Chevy Chase, MD 20815</div>
-									</header>
-									
-									<button class="event-post__buy-ticket">buy ticket</button>
+								<article class="item event-post2">
+                                    <div class="store-box__item">
+								    <div id='product-component-5e573d64cdb'></div>	
+                                    </div>    
 								</article>
 								<!-- end slide -->
 
 								<!-- slide -->
-								<article class="item event-post" data-bg="img/events/omagco.png">
-									<header class="event-post__header">
-										<div class="event-post__date">March 22, 2019</div>
-										<div class="event-post__time">7:30 pm</div>
-										<h2 class="event-post__title"><a href="event.html">Rocky Pub</a></h2>
-										<div class="event-post__address">514 S. Magnolia St. Orlando, FL 32806</div>
-									</header>
-									
-									<div class="event-post__sold-out">sold out</div>
+								<article class="item event-post2">
+                                    <div class="store-box__item">
+								    <div id='product-component-94521c23213'></div>	
+                                    </div>    
 								</article>
 								<!-- end slide -->
 
 								<!-- slide -->
-								<article class="item event-post" data-bg="img/events/event.png">
-									<header class="event-post__header">
-										<div class="event-post__date">March 30, 2017</div>
-										<div class="event-post__time">8:00 pm</div>
-										<h2 class="event-post__title"><a href="event.html">Big Club</a></h2>
-										<div class="event-post__address">123 6th St. Melbourne, FL 32904</div>
-									</header>
-									
-									<button class="event-post__buy-ticket">buy ticket</button>
+								<article class="item event-post2">
+									<div class="store-box__item">
+                                    <div id='product-component-e6292dd0c78'></div>
+                                    </div>
 								</article>
 								<!-- end slide -->
 							</div>
@@ -510,7 +498,314 @@
     })();
     /*]]>*/
     </script>
-                            
+      <script type="text/javascript"> //producto2
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'g13-shop.myshopify.com',
+          storefrontAccessToken: 'cb4e8a169c2803e0fcdab234894fa43a',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [1715660390467],
+            node: document.getElementById('product-component-5e573d64cdb'),
+            moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+            options: {
+  "product": {
+    "variantId": "all",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>     
+                            //producto 3
+<script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'g13-shop.myshopify.com',
+          storefrontAccessToken: 'cb4e8a169c2803e0fcdab234894fa43a',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [1718391504963],
+            node: document.getElementById('product-component-94521c23213'),
+            moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+            options: {
+  "product": {
+    "variantId": "all",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
+                            // producto 4
+<script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'g13-shop.myshopify.com',
+          storefrontAccessToken: 'cb4e8a169c2803e0fcdab234894fa43a',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [1718447407171],
+            node: document.getElementById('product-component-e6292dd0c78'),
+            moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+            options: {
+  "product": {
+    "variantId": "all",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
    
 							<a href="" class="store-box__item">
                                  <div id='product-component-43972b54afd'></div>
@@ -934,10 +1229,10 @@
 							<!-- news -->
 							<div class="col-xs-12 col-sm-6">
 								<article class="news-post">
-									<figure class="news-post__img"><a href=""><img src="img/news/zoo%20project.png" alt=""></a></figure>
+									<figure class="news-post__img"><a href="articlehome1.html"><img src="img/news/zoo%20project.png" alt=""></a></figure>
 
 									<header class="news-post__header">
-										<h2 class="news-post__title"><a href="">Oxy will perform in Minsk again</a></h2>
+										<h2 class="news-post__title"><a href="articlehome1.html">Oxy will perform in Minsk again</a></h2>
 										<div class="news-post__date">March 29, 2017</div>
 									</header>
 
@@ -951,10 +1246,10 @@
 							<!-- news -->
 							<div class="col-xs-12 col-sm-6">
 								<article class="news-post">
-									<figure class="news-post__img"><a href=""><img src="img/news/clubg13.png" alt=""></a></figure>
+									<figure class="news-post__img"><a href="articlehome2.html"><img src="img/news/clubg13.png" alt=""></a></figure>
 
 									<header class="news-post__header">
-										<h2 class="news-post__title"><a href="article.html">Who new Artist of our label? Maybe this..</a></h2>
+										<h2 class="news-post__title"><a href="articlehome2.html">Who new Artist of our label? Maybe this..</a></h2>
 										<div class="news-post__date">March 29, 2017</div>
 									</header>
 
