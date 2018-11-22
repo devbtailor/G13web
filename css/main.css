@@ -3931,3 +3931,26 @@ h6 {
 .jp-state-playing .player__play-btn .glyphicon-pause {
 	display: inline-block;
 }
+.productos {
+    display:  inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.producto1 {
+    order: 1;
+    margin-left: 80px;
+}
+.producto2 {
+    order: 3;
+    margin-left: 80px;
+}
+.producto3 {
+    order: 2;
+    margin-left: 80px;
+}
+.producto4 {
+    order: 4;
+    margin-left: 80px;
+    margin-top: 160px;
+}
