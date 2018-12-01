@@ -86,7 +86,7 @@
 					<a class="sidebar__link" href="artists.html">Music</a>
 				</li>
                 <li>
-					<a class="sidebar__link" href="skate.html">Skate</a>
+					<a class="sidebar__link" href="skate.html">Skateboarding</a>
 				</li>
 <!--
 				<li class="sidebar__dropdown">
@@ -170,10 +170,7 @@
 		</div>
 
 		<div class="sidebar__footer">
-			<ul class="sidebar__footer-links clearfix">
-				<li><a href="#">Legal</a></li>
-				<li><a href="#">Policy</a></li>
-			</ul>
+			
 
 			<div class="sidebar__copyright">
 				Create by <a href="#">Business Tailor</a>
@@ -322,9 +319,11 @@
                         <div class="producto1">
                             <div id='product-component-6ab5261be81'></div>
                         </div>
+<!--
                         <div class="producto2">
                             <div id='product-component-b19da436f34'></div>
                         </div>
+-->
 
                         <div class="producto3">
                             <div id='product-component-c5b473685ca'></div>
@@ -446,114 +445,9 @@
     </script>
                     
 
-    <script type="text/javascript">
-    /*<![CDATA[*/
-
-    (function () {
-      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-      if (window.ShopifyBuy) {
-        if (window.ShopifyBuy.UI) {
-          ShopifyBuyInit();
-        } else {
-          loadScript();
-        }
-      } else {
-        loadScript();
-      }
-
-      function loadScript() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = scriptURL;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-        script.onload = ShopifyBuyInit;
-      }
-
-      function ShopifyBuyInit() {
-        var client = ShopifyBuy.buildClient({
-          domain: 'g13-shop.myshopify.com',
-          storefrontAccessToken: 'cb4e8a169c2803e0fcdab234894fa43a',
-        });
-
-        ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: [1709392265283],
-            node: document.getElementById('product-component-b19da436f34'),
-            moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
-            options: {
-  "product": {
-    "buttonDestination": "modal",
-    "variantId": "all",
-    "width": "240px",
-    "contents": {
-      "imgWithCarousel": false,
-      "variantTitle": false,
-      "options": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "text": {
-      "button": "VIEW PRODUCT"
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "compareAt": {
-        "font-size": "12px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      }
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
-          });
-        });
-      }
-    })();
-    /*]]>*/
-    </script>
+<!--
+   
+-->
                         
      <script type="text/javascript">
     /*<![CDATA[*/

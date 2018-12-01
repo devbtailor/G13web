@@ -764,7 +764,9 @@ h6 {
 	color: #92999e;
 	font-weight: 400;
 }
-.sidebar__link:hover,
+.sidebar__link:hover {
+    color: #4E9C68;
+}
 .sidebar__link.active {
 	color: #fff;
 }
@@ -856,7 +858,7 @@ h6 {
 }
 .sidebar__copyright a:hover,
 .sidebar__copyright a:focus {
-	color: #f65656;
+	color: #4E9C68;
 }
 .sidebar__copyright span {
 	display: block;
@@ -3502,7 +3504,7 @@ h6 {
 	font-size: 20px;
 }
 .footer__social a:hover {
-	color: #f65656;
+	color: #4E9C68;
 }
 @media (min-width: 768px) {
 	.footer {
@@ -3940,18 +3942,21 @@ h6 {
 }
 .producto1 {
     order: 1;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
 .producto2 {
     order: 3;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
 .producto3 {
     order: 2;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-top: 20px;
 }
 .producto4 {
     order: 4;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 160px;
 }
