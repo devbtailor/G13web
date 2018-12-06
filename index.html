@@ -258,7 +258,7 @@
 
 							<header class="release-post__header">
 								<h2 class="release-post__title"><a href="reke.html">Reke </a></h2>
-								<a href="reke.html" class="release-post__autor">Rap and trap</a>
+								<a href="reke.html" class="release-post__autor">Rap, trap and Hip-Hop</a>
 							</header>
 						</article>
 					</div>
@@ -271,7 +271,7 @@
 
 							<header class="release-post__header">
 								<h2 class="release-post__title"><a href="kingdest.html">King Dest</a></h2>
-								<a href="kingdest.html" class="release-post__autor">John Doe</a>
+								<a href="kingdest.html" class="release-post__autor">Trap</a>
 							</header>
 						</article>
 					</div>
@@ -284,7 +284,7 @@
 
 							<header class="release-post__header">
 								<h2 class="release-post__title"><a href="mcbuesta.html">MC Buseta</a></h2>
-								<a href="mcbuesta.html" class="release-post__autor">Taylor</a>
+								<a href="mcbuesta.html" class="release-post__autor">Rap/Trap</a>
 							</header>
 						</article>
 					</div>
@@ -319,11 +319,9 @@
                         <div class="producto1">
                             <div id='product-component-6ab5261be81'></div>
                         </div>
-<!--
                         <div class="producto2">
                             <div id='product-component-b19da436f34'></div>
                         </div>
--->
 
                         <div class="producto3">
                             <div id='product-component-c5b473685ca'></div>
@@ -334,6 +332,115 @@
                         </div>
                         
                     </div>
+        
+    <script type="text/javascript">
+    /*<![CDATA[*/
+
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'g13-shop.myshopify.com',
+          storefrontAccessToken: 'cb4e8a169c2803e0fcdab234894fa43a',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [1709533462595],
+            node: document.getElementById('product-component-c5b473685ca'),
+            moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
+            options: {
+  "product": {
+    "buttonDestination": "modal",
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "options": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "VIEW PRODUCT"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>                
                     
     <script type="text/javascript">
     /*<![CDATA[*/
@@ -557,114 +664,7 @@
     })();
     /*]]>*/
     </script>     
-     <script type="text/javascript">
-    /*<![CDATA[*/
-
-    (function () {
-      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-      if (window.ShopifyBuy) {
-        if (window.ShopifyBuy.UI) {
-          ShopifyBuyInit();
-        } else {
-          loadScript();
-        }
-      } else {
-        loadScript();
-      }
-
-      function loadScript() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = scriptURL;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-        script.onload = ShopifyBuyInit;
-      }
-
-      function ShopifyBuyInit() {
-        var client = ShopifyBuy.buildClient({
-          domain: 'g13-shop.myshopify.com',
-          storefrontAccessToken: 'cb4e8a169c2803e0fcdab234894fa43a',
-        });
-
-        ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: [1709533462595],
-            node: document.getElementById('product-component-c5b473685ca'),
-            moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
-            options: {
-  "product": {
-    "buttonDestination": "modal",
-    "variantId": "all",
-    "width": "240px",
-    "contents": {
-      "imgWithCarousel": false,
-      "variantTitle": false,
-      "options": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "text": {
-      "button": "VIEW PRODUCT"
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "compareAt": {
-        "font-size": "12px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "styles": {
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      }
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
-          });
-        });
-      }
-    })();
-    /*]]>*/
-    </script>                
+    
 <!--					<div class="col-xs-12">-->
 <!--                        // test carousel start-->
 <!--
@@ -848,7 +848,7 @@
                     <!-- release -->
 					<div class="col-xs-6 col-sm-3">
 						<article class="release-post">
-							<figure class="release-post__cover"><a href="sk_dannyjenks.html"><img src="img/artists/sasha.jpg" alt=""></a></figure>
+							<figure class="release-post__cover"><a href="sk_dannyjenks.html"><img src="img/artists/IMG-20180813-WA0020.jpg" alt=""></a></figure>
 
 							<header class="release-post__header">
 								<h2 class="release-post__title"><a href="sk_dannyjenks.html">Danny Jenks</a></h2>
